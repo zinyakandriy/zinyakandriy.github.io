@@ -1,0 +1,37 @@
+.container-red,.container-yellow,.container-green{
+  position: relative;
+  width: 150px;
+  height:50px;
+  border: 5px solid #000;
+}
+.container-yellow {
+  margin: 10px 0;
+}
+.container-red::before,.container-yellow::before,.container-green::before{
+position:absolute;
+content: "";
+top: 0px;
+left:0px;
+height: 50px;
+}
+.container-red::before{
+  width: 30%;
+  background:red;
+}
+.container-yellow::before{
+  width: 70%;
+  background:orange;
+}
+.container-green::before{
+    width: 100%;
+    background:green;
+}
+.container-red::after,.container-yellow::after,.container-green::after{
+  position:absolute;
+    content: "";
+    left:150px;
+    top:18px;
+    width: 10px;
+    height: 15px;
+  background:black;
+}

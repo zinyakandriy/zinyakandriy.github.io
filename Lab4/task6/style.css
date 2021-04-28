@@ -1,0 +1,18 @@
+h1 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h1:before {
+    content: "";
+    width: 400px;
+    height: 5px;
+    background: #000;
+  }
+  h1:after {
+    content: "";
+    width: 400px;
+    height: 5px;
+    background: #000;
+  }

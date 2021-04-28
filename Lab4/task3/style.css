@@ -1,0 +1,23 @@
+
+li{
+    list-style-type:none;
+    padding: 10px;
+}
+.first::before{
+    content:"\2660";
+    margin:6px;
+}
+.second::before{
+    content:"\2663";
+    margin:6px;
+}
+.third::before{
+    content:"\2666";
+    color:red;
+    margin:6px;
+}
+.four::before{
+    content:"\2665";
+    color:red;
+    margin:6px;
+}
