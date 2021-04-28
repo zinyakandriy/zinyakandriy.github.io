@@ -116,9 +116,21 @@ top: -37px;
 }
 
 .monitor{
-	text-align: center;
+	margin: 50px;
 	color: #1f9be1;
+	text-decoration: none;
 
+}
+.acer{
+	margin: 100px;
+}
+
+.philips{
+	margin: 90px;
+}
+
+.samsungor{
+	margin: 90px;
 }
 
 .images{
@@ -158,7 +170,6 @@ button:hover{
 	cursor: pointer;
 	color: red;
 }
-
 .samsung{
 	background: #cc3399;
 	color: #fff;
