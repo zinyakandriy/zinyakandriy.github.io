@@ -22,7 +22,7 @@ body {
  }
 .intro1{
 width: 100%;
- 	height: 100vh;
+ 	height: 110vh;
  	background: url("../images/intro.jpg") center
  	no-repeat;
  	background-size: cover;
@@ -137,7 +137,7 @@ img{
 
 .text{
 	text-align: center;
-	color: blue;
+	color: red;
 	font-weight: bold;
 	position: absolute;
 	right: 20px;
@@ -148,16 +148,16 @@ img{
 ===========================*/
 .about{
     color: #fff;
-    margin: 20px;
 	padding-top:100px;
 	padding-bottom:100px;
-	background: url("../images/osvita.jpg") center
- 	no-repeat;
+	background: url("../images/osvita.jpg") center;
  	background-size: cover;
+ 	position: relative;
 }
 .about .single-about p{
 	margin-bottom: 25px;
-	font-size:15px;
+	font-style: bold;
+	font-size:25px;
 	font-weight:300;
 }
 .about .single-about .cv {
@@ -184,7 +184,7 @@ img{
 }
 .about .single-about{
 	margin-top: 20px;
-	color: green;
+	color: gray;
 }
 .about .single-about ul{}
 .about .single-about li{
@@ -225,7 +225,7 @@ img{
 	padding: 40px 0 100px;
 }
 .skill .section-title {
-	margin-top: 227px;
+	margin-top: 27px;
 }
 .skill .section-title h2{}
 .skill .section-title span{
@@ -271,21 +271,35 @@ img{
 /*=========================
 	btn CSS
 ===========================*/
+.portfolio{
+background: url("../images/portfolio.jpg")
+center;
+position: relative;
+height: 300px;
+}
+
+.portf{
+	text-align: center;
+	color: red;
+}
 .btn{
  display: block;
  width: 300px;
  height: 50px;
+ background: orange;
+ border-radius: 20px;
  border:1px solid #000;
  text-align: center;
  line-height:50px;
  text-decoration: none;
- color:#000;
+ color:#fff;
 }
 .btn:hover{
  background:#000;
- color:#fff;
+ color: red;
 }
 
 /*=========================
 	btn CSS
 ===========================*/
+
