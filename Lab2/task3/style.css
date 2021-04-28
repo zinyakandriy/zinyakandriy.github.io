@@ -1,0 +1,8 @@
+ol {
+    list-style: none; 
+    counter-reset: counterlist 5; 
+    }
+    li:before {
+    counter-increment: counterlist -1; 
+    content: counters(counterlist,".") ". "; 
+    }
